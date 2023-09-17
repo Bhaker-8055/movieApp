@@ -1,0 +1,65 @@
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: 20px auto; /* Center horizontally with margin on left and right */
+    max-width: 72%; /* Adjust the maximum width as needed */
+    height: 450px;
+    box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+    border-radius: 1rem; /* Optional border radius */
+    background-color: #FEFFFF; /* Optional background color */
+  }
+  
+  .container-left {
+    width: 250px; /* Fixed width for the image container */
+    height: 380px; /* Fixed height for the image container */
+    
+  }
+  
+  .container-left img {
+    width: 100%; /* Set the image width to 100% of the container */
+    height: 100%; /* Set the image height to 100% of the container */
+    object-fit:fill; /* Maintain aspect ratio and cover the container */
+  }
+
+  .noPoster{
+    width: 100%; /* Set the image width to 100% of the container */
+    height: 100%; /* Set the image height to 100% of the container */
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-right {
+    width: 800px;
+    height: 100%;
+    padding: 10px; /* Add padding for spacing */
+    /* justify-content:space-between; */
+    align-items:flex-start;
+    padding: 1em;
+    padding-top: 2em;
+    gap: 1em;
+  }
+
+  .container-right h1{
+    font-size: 2.5em;
+    color: #444547;
+  }
+
+  .movie-text{
+    color: #444547;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+  }
+
+  .movie-overview{
+    color: #444547;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+  }
+  
+  /* Add any additional styles as needed */
+  

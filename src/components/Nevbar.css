@@ -1,0 +1,60 @@
+.nev-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-items: center;
+    padding: 5px 5px; /* Adjust padding as needed */
+    background-color: white; /* Background color for the navbar */
+    color: black; /* Text color */
+
+    width: 72%;
+  }
+  
+  .nev-text h2 {
+    width: 100%;
+    margin: 0;
+    color: #444547;
+    font-size: 1.1em;
+    font-weight:400;
+    /* font-family: ; */
+  }
+
+  .nev-text {
+    width: 10%;
+  }
+
+  .form-container{
+
+    width: 87%;
+  }
+  
+  .nev-form {
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the form takes up the entire available width */
+  }
+  
+  .nev-input {
+    flex-grow: 1;/* Allow the input field to grow and take up remaining space */
+    padding: 5px; /* Add padding to the input field */
+    margin-right: 10px; /* Add margin to separate the input and button */
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid black; /* Remove border */
+    border-radius: 10px; /* Optional border-radius */
+  }
+  
+  .nev-btn {
+    padding: 10px 10px; /* Add padding to the button */
+    background-color: #444547; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 1rem; /* Optional border-radius */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    width: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+  }
+  
+  /* Add any additional styles as needed */
+  
